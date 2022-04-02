@@ -211,6 +211,7 @@ class SongLyrics:
 
             if lyrics:
                 return {
+                    "source": result_url,
                     "title": self.scraper_factory.title,
                     "lyrics": lyrics
                 }
